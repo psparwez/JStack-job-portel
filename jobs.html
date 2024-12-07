@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSTACK - Search Jobs</title>
+    <!-- ------------ Boxicons Icons link -------  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- ---------- Custom CSS ---------  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/jobs.css" />
+  </head>
+
+  <body>
+    <!-- Header  Section-->
+
+    <header>
+      <div id="navbar" class="obj-width">
+        <a href="index.html">
+          <img src="images/logo.png" class="logo" alt="" />
+        </a>
+
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jobs.html">Browse Jobs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <button id="w-btn">Join</button>
+        </ul>
+        <i id="bar" class="bx bx-menu"></i>
+      </div>
+    </header>
+
+    <!-- Job Listing  Section-->
+    <section class="jobs jobs-section sec-space obj-width">
+      <h2>Jobs in demand</h2>
+      <p>Most viwed and all-time top-selling services</p>
+
+      <div class="search-box">
+        <div class="icon">
+          <i class="bx bx-search"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Search Jobs" id="searchInput" />
+        </div>
+      </div>
+
+      <div class="jobs-container" id="jobsList">
+        <li data-item="fulltime" class="job-list">
+          <img src="images/google.png" alt="" />
+          <h3 class="sm-text">Web Developer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Full Time</span>
+        </li>
+        <li data-item="freelancer" class="job-list">
+          <img src="images/uber.png" alt="" />
+          <h3>Freelancer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Freelancer</span>
+        </li>
+        <li data-item="partTime" class="job-list">
+          <img src="images/linkedin.png" alt="" />
+          <h3 class="sm-text">Business Associates</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Part Time</span>
+        </li>
+        <li data-item="fullTime" class="job-list">
+          <img src="images/facebook.png" alt="" />
+          <h3 class="sm-text">Digital Marketing</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Full Time</span>
+        </li>
+        <li data-item="partTime" class="job-list">
+          <img src="images/yahoo.png" alt="" />
+          <h3 class="sm-text">User Experience</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Part Time</span>
+        </li>
+        <li data-item="fullTime" class="job-list">
+          <img src="images/apple.png" alt="" />
+          <h3 class="sm-text">Web Developer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Full Time</span>
+        </li>
+        <li data-item="partTime" class="job-list">
+          <img src="images/instagram.png" alt="" />
+          <h3 class="sm-text">Product Designer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Part Time</span>
+        </li>
+        <li data-item="partTime" class="job-list">
+          <img src="images/wordpress.png" alt="" />
+          <h3 class="sm-text">Freelancer</h3>
+          <p>$900-1200/m</p>
+          <span id="key">Part Time</span>
+        </li>
+      </div>
+
+      <div id="noResultsMessage" class="no-results">
+        <!-- No jobs found matching your search criteria. -->
+        <img src="images/no data.gif" alt="" />
+      </div>
+    </section>
+
+    <!-- Footer  Section-->
+
+    <footer class="footer">
+      <div class="obj-width">
+        <div class="top">
+          <div>
+            <img src="images/logo.png" class="logo" alt="" />
+            <p>Search your desiered jobs.</p>
+          </div>
+          <div>
+            <a href="javascript:void()">
+              <i class="bx bxl-facebook-square"></i>
+              <i class="bx bxl-instagram-alt"></i>
+              <i class="bx bxl-behance"></i>
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="bottom">
+          <div>
+            <h3>Project</h3>
+            <a href="javascript:void()">Changelog</a>
+            <a href="javascript:void()">Status</a>
+            <a href="javascript:void()">License</a>
+            <a href="javascript:void()">All Version</a>
+          </div>
+          <div>
+            <h3>Community</h3>
+            <a href="javascript:void()">Github</a>
+            <a href="javascript:void()">Issues</a>
+            <a href="javascript:void()">Project</a>
+            <a href="javascript:void()">Twitter</a>
+          </div>
+          <div>
+            <h3>Help</h3>
+            <a href="javascript:void()">Support</a>
+            <a href="javascript:void()">Troubleshooting</a>
+            <a href="javascript:void()">Contact Us</a>
+          </div>
+          <div>
+            <h3>Others</h3>
+            <a href="javascript:void()">Terms of Services</a>
+            <a href="javascript:void()">Privacy Policy</a>
+            <a href="javascript:void()">Licesnce</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ------------------- Custom JS ---------------------  -->
+    <script src="./assets/js/toggle.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
